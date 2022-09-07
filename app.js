@@ -173,7 +173,7 @@ function checkMatch(){
     } else{
         carta[opcionUnoId].setAttribute("src","imagenes/blank.png")
         carta[opcionDosId].setAttribute("src","imagenes/blank.png")
-        alert("NO COINCIDERON, VOLVE A INTENTARLO !!! ")
+        alert("NO COINCIDEN, VOLVE A INTENTARLO !!! ")
 
     }
     tarjetasElegidas=[] // las vacio para comenzar otra vez
