@@ -126,7 +126,7 @@ const boton = document.querySelector("#boton")
 
 boton.addEventListener("click",() => {
     location.reload();
-    console.log("Sebas esta entrando")
+    
 
 })
 
@@ -162,7 +162,7 @@ function checkMatch(){
     }
 
     if(tarjetasElegidas[0]==tarjetasElegidas[1]){
-        alert("MUY BIEN SANTI, SEGUI ASI !!!")
+        alert("MUY BIEN, SEGUI ASI !!!")
         carta[opcionUnoId].setAttribute("src","imagenes/white.png")
         carta[opcionDosId].setAttribute("src","imagenes/white.png")
         carta[opcionUnoId].removeEventListener("click",flipCard)
@@ -173,7 +173,7 @@ function checkMatch(){
     } else{
         carta[opcionUnoId].setAttribute("src","imagenes/blank.png")
         carta[opcionDosId].setAttribute("src","imagenes/blank.png")
-        alert("NO COINCIDEN, VOLVE A INTENTARLO !!! ")
+        
 
     }
     tarjetasElegidas=[] // las vacio para comenzar otra vez
