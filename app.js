@@ -159,9 +159,7 @@ function checkMatch(){
         carta[opcionUnoId].setAttribute("src","imagenes/blank.png")
         carta[opcionDosId].setAttribute("src","imagenes/blank.png")
 
-    }
-
-    if(tarjetasElegidas[0]==tarjetasElegidas[1]){
+    } else if(tarjetasElegidas[0]==tarjetasElegidas[1]){
         alert("MUY BIEN, SEGUI ASI !!!")
         carta[opcionUnoId].setAttribute("src","imagenes/white.png")
         carta[opcionDosId].setAttribute("src","imagenes/white.png")
