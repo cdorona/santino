@@ -166,9 +166,7 @@ function checkMatch(){
         carta[opcionUnoId].removeEventListener("click",flipCard)
         carta[opcionDosId].removeEventListener("click",flipCard)
         tarjetasGanadoras.push(tarjetasElegidas)
-         
-
-    } else{
+       } else{
         carta[opcionUnoId].setAttribute("src","imagenes/blank.png")
         carta[opcionDosId].setAttribute("src","imagenes/blank.png")
         
